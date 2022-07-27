@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5 JS Metodos de arreglos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-style">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <h1><strong>Desafío - 5 - </strong>Todo List</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <section class="container">
+        <div class="row">
+            <div class="row g-3">
+                <h2>Nueva Tarea</h2>
+                <div class="col-10">
+                    <input type="text" class="form-control" placeholder="Ingresa tu tarea" id="tareas">
+                </div>
+                <div class="col-2">
+                    <button class="btn btn-info mb-3" id="agregarTareas" >Agregar</button>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-4">
+                    <div class="card text-center mb-5">
+                        <div class="card-body bg-styl">
+                            <h1 class="card-title ">Status de Tareas</h1>
+                            <p >Total Tareas: 
+                                <span id="tareasCreadas"></span>
+                            </p>
+                            <p>Total Realizadas: 
+                                <span id="tareasFinalizadas"></span>
+                            </p>
+                            <a href="https://github.com/Jcoronel-tech/js-desafio-5-metodos-arreglos" target="_blank" class="">
+                                <button type="button" class="btn btn-info my-3">Imprimir Reporte</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 text-center">
+                    <table class="table table-borderless">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Tareas</th>
+                                <th scope="col">Tareas Finalizadas</th>
+                                <th scope="col">Eliminar Tareas</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tablaTareas">
+                            <!--Me encuentro en el archivo JS-->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

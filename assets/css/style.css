@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bg-style {
+    background: #d6fdfa;
+}
+.bg-sty {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center; 
+}
+.tamaño-style {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.bg-styl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #d6fdfa;
+}
+.position-pag {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    justify-content: center;
+}
+.selec-style {
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    text-align: center;
+    background: #d6fdfa;
+    height: 50px;
+    justify-content: center;
+}
